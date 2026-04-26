@@ -1,7 +1,6 @@
 # Matemáticas para el Aprendizaje de Máquinas                                                                                                
                                                                                                                                                
-  A collection of machine learning exercises developed for the **Mathematics for Machine Learning** course. Each notebook covers a different topic, combining
-  mathematical foundations with practical Python implementation.
+  In this project we show a collection of machine learning exercises developed for the **Mathematics for Machine Learning** course. Each notebook covers a different topic, combining mathematical foundations with  practical Python implementation.
 
   ## Notebooks
 
@@ -16,34 +15,31 @@
   ---
 
   ### Eigenfaces
-  Loads a dataset of famous people's faces, splits it into training and test
-  subsets, and applies PCA over the training set to compute the average face and
-  principal components. A new image is then reconstructed through its projection
+  In this notebook we load a dataset of famous people's faces, split it into training and test
+  subsets, and applie PCA over the training set to compute the average face and
+  principal components. Then we recontruct a new image through its projection
   onto those components.
 
   ### Book Exercises
-  Selected exercises from:
+  Here we solve some selected exercises from:
   > Abu-Mostafa, Y. S., Magdon-Ismail, M., & Lin, H. T. (2012). *Learning from
   > data*. AMLBook.
 
   ### SVM Basic
-  Applies a Support Vector Machine to the **Banknote Authentication Dataset** — a
-  binary classification problem to determine whether a bill is genuine or
-  counterfeit. The analysis covers:
+  For this assignment we apply a Support Vector Machine to the **Banknote Authentication Dataset**, which is a binary classification problem to determine whether a bill is genuine or counterfeit. This analysis covers:
   - Whether the dataset is linearly separable
   - Whether samples are randomly drawn
-  - Sample size required to guarantee generalization
+  - What is the sample size required to guarantee generalization
   - Theoretical explanations and empirical evidence of generalization
 
   ### Model Comparison Workshop
-  Compares four supervised learning models on the **Banknote Authentication
-  Dataset**:
+  We compared four supervised learning models to check their performance on the **Banknote Authentication Dataset**:
   - Linear Regression
   - Logistic Regression
   - Decision Trees
   - K-Nearest Neighbors (KNN)
 
-  Models are evaluated and compared in terms of classification performance.
+  
 
   ---
 
